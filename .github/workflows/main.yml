@@ -5,8 +5,8 @@ on:
  issues:
    type: opened , closed
  workflow_dispatch:
- schedule:
-  - cron: '0/5 * * * *'
+#  schedule:
+#   - cron: '0/5 * * * *'
    
 jobs:
   Explore-GitHub-Actions:
